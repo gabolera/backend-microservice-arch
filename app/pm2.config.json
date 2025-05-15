@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "app-challange",
+      "script": "dist/server.js",
+      "instances": 4,
+      "exec_mode": "cluster",
+      "autorestart": true,
+      "max_memory_restart": "500M",
+      "out_file": "logs/app-challange-out.log",
+      "error_file": "logs/app-challange-error.log",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss"
+    }
+  ]
+}
