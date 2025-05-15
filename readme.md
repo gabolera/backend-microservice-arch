@@ -1,12 +1,13 @@
-## Fullstack Architecture and Implementation Notes
+## Backend Architecture and Implementation Notes
 
 ### Overview
 
+> [!NOTE]
 > Many questions that would be relevant were not clarified in the [questions](#Questions) challenge, but we will build the application with a focus on scale, performance and good architectural practices! With that, we will follow some premises.
 
 - Payload of `POST /data` is a not structured JSON, but has every contains `id`, `timestamp`, e `payload` (where payload is any object)
 
-Requests are fully synchronous, and the response is sent only after data is successfully committed to the database
+- Requests are fully synchronous, and the response is sent only after data is successfully committed to the database
 
 - A response time of 500ms is considered average for the backend (excluding client connection time)
 
@@ -55,7 +56,7 @@ app/
 └── main.ts
 ```
 
-![Application Diagram](./docs/application.png)
+![ApplicationDiagram](./docs/app2.png)
 
 ---
 
@@ -94,7 +95,7 @@ When opening a pull request, run the trigger that executes the steps.
 
 1. Checkout the pull request branch
 
-2. Merge the target branch (e.g., `main` or `develop`) into your current branch to ensure it's up to date
+2. Merge the target branch (`main` or `develop`) into your current branch to ensure it's up to date
 
 3. Setup Node and Install Deps
 
