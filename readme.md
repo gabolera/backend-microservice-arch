@@ -56,7 +56,7 @@ app/
 └── main.ts
 ```
 
-![ApplicationDiagram](./docs/app2.png)
+![ApplicationDiagram](./docs/appdiagram.png)
 
 ---
 
@@ -113,7 +113,7 @@ When opening a pull request, run the trigger that executes the steps.
 
 ### Deploy K8S
 
-[Readme](./k8s/README.md)
+The K8S configuration is extensive and is described in [here](./k8s/README.md)
 
 ---
 

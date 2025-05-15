@@ -32,7 +32,7 @@ k8s/
 2. **Overlays**: Contains customizations specific to each environment
 3. **Secrets**: Templates for secrets (not versioned in git)
 
-## Isage
+## Usage
 
 Commands to apply configurations
 
