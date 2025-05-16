@@ -1,4 +1,4 @@
-## Backend Architecture and Implementation Notes
+## Backend Architecture
 
 ### Overview
 
