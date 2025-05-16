@@ -41,6 +41,7 @@ The application has two main layers, domain and infrastructure, to ensure consis
 - **MongoDB Driver**: Using [Mongoose](https://mongoosejs.com/) to connect to database, this is a mature libary for this action.
 
 > If we are using mongoose and operation is easy validation, dont need zod to validate, mongoose make this operation.
+
 > If make is a hard schema, maybe is interesting just use native driver to connect in mongodb (without mongoose) to ignore definitions, and make a generic validation with zod
 
 <br/>
